@@ -1,0 +1,27 @@
+.style-filled-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  position: relative;
+}
+
+.style-filled-wrapper .class {
+  color: var(--tokens-text-text-secondary) !important;
+}
+
+.style-filled-wrapper .class-2 {
+  background-color: unset !important;
+  border: 1px solid !important;
+  border-color: var(--tokens-surface-surface-brand) !important;
+  flex: 0 0 auto !important;
+}
+
+.style-filled-wrapper .class-3 {
+  background-color: var(--tokens-surface-surface-secondary) !important;
+  flex: 0 0 auto !important;
+}
+
+.style-filled-wrapper .instance-node {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}

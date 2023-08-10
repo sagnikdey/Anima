@@ -1,0 +1,35 @@
+.tag {
+  align-items: center;
+  background-color: var(--tokens-surface-surface-primary);
+  border-radius: 4px;
+  display: inline-flex;
+  gap: 4px;
+  justify-content: center;
+  padding: 6px 8px;
+  position: relative;
+}
+
+.tag .icon-wrapper-instance {
+  flex: 0 0 auto !important;
+}
+
+.tag .c-button-text {
+  color: var(--tokens-surface-surface-brand);
+  font-family: var(--type-set-caption-400-font-family);
+  font-size: var(--type-set-caption-400-font-size);
+  font-style: var(--type-set-caption-400-font-style);
+  font-weight: var(--type-set-caption-400-font-weight);
+  letter-spacing: var(--type-set-caption-400-letter-spacing);
+  line-height: var(--type-set-caption-400-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tag .icon-instance-node {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
